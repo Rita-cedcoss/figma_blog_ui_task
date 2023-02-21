@@ -1,0 +1,287 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.container {
+    min-height: 400px;
+    max-width: 1140px;
+    margin: auto;
+    font-family: New York Small;
+}
+/* navbar css */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 42px 36px;
+    border-bottom: 1px solid #E5E5E5;
+}
+
+.navbar__left {
+    height: 37.53px;
+}
+
+.navbar__right {
+    display: flex;
+    list-style-type: none;
+}
+
+.navbar__right>li {
+    padding: 0px 16px;
+    font-size: 20px;
+}
+/* banner css */
+.Banner {
+    max-width: 854px;
+    margin: auto;
+    font-size: 54px;
+    text-align: center;
+    font-weight: 700;
+    padding: 77px 0px;
+}
+
+.Banner__bottom {
+    max-width:640px ;
+    margin: auto;
+    padding: 32px 0px;
+    border-bottom: 1px solid #000000;
+}
+
+.Banner__bottom--border {
+    border: none;
+    font-size: 16px;
+    font-weight: none;
+}
+
+.Banner__content {
+    font-size: 20px;
+    font-weight: 400;
+    text-align: center;
+    line-height: 2;
+    font-family: monospace;
+}
+/* article css */
+.article {
+    text-align: center;
+}
+
+.autofill {
+    width: 640px;
+    margin: auto;
+    margin-top: 2%;
+    margin-bottom: 5%;
+    border-radius: 3px;
+    padding: 30px;
+    display: grid;
+    gap: 28px;
+    grid-template-columns: repeat( auto-fill, minmax(300px, 1fr));
+}
+
+.item1 {
+    border-radius: 3px;
+    text-align: center;
+    max-width: 100%;
+    font-size: 22px;
+    min-height: 250px;
+    font-weight: 500;
+    height: auto;
+}
+/* footer css */
+.footer {
+    height: 464px;
+    background-color: #000000;
+    color: white;
+    font-size: 20px; 
+    padding-bottom: 30px;
+}
+
+.footer__top{
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer__top>p{
+    padding-top: 20px;
+    padding-right: 25px;
+}
+
+.overlay::before{
+    background:none !important;
+}
+.overlay::after {
+    background:none !important;
+}
+
+.footer__bottom {
+    max-width: 500px;
+    margin: auto;
+    padding-top: 130px;
+    text-align: center;
+    font-size: 16px;
+  
+}
+
+.footer__bottom >p{
+    padding-top: 20px;
+    line-height: 1.5;
+}
+
+.footer__social{
+    width: 100%;
+    display: flex;
+    justify-content:center;
+    
+}
+
+.footer__social>p {
+    padding: 60px 27px;
+    font-size: 16px;
+    text-decoration: underline;
+}
+
+/* banner */
+.Banner-bottom {
+    padding-bottom: 20px !important;
+}
+
+/* Article blog */
+.articleBlog {
+    min-height: 200px;
+    max-width: 640px;
+    margin: auto;
+}
+
+.articleBlog__top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-top: 2px solid black;
+    padding-top: 20px;
+    margin-top: 25px;
+
+}
+ 
+.articleBlog__left {
+    display: flex;
+    line-height: 2;
+}
+
+.articleBlog__left__image {
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.articleBlog__favicon {
+    padding: 10px 30px;
+    font-size: 20px;
+    border: 1px solid #EAEAEA;
+}
+
+.articleBlog__content {
+    font-size: 20px;
+}
+
+.articleBlog__content__para {
+    padding-top: 40px;
+}
+
+.articleBlog__content>h3 {
+    font-size: 30px;
+    padding-top: 40px;
+}
+
+.articleBlog__banner {
+    padding-top: 50px;
+    max-width: 854px;
+    margin: auto;
+    text-align: center;
+    padding-bottom: 50px;
+}
+
+.articleBlog__favicon1 {
+    margin: 70px 0px;
+}
+
+.articleBlog__favicon1--pd {
+    padding: 10px 145px !important;
+}
+
+.articleBlog__left--btm {
+    padding-top: 30px;
+    margin-top: 25px;
+    border-top: 1px dashed #E5E5E5;
+}
+
+.articleBlog__eye {
+    padding-bottom: 50px;
+    position: relative;
+}
+
+.article__eye {
+    position: absolute;
+    top: -35px;
+    left: 563px;
+
+}
+
+.article__grid {
+    width: 854px;
+    margin: auto;
+    text-align: center;
+}
+
+.autofill1 {
+    margin-top: 4%;
+    border-radius: 3px;
+    display: grid;
+    gap: 40px;
+    grid-template-columns: repeat( auto-fill, minmax(250px, 1fr));
+}
+
+.item2 {
+    border-radius: 3px;
+    text-align: center;
+    max-width: 100%;
+    font-size: 22px;
+    min-height: 250px;
+    font-weight: 500;
+    height: auto;
+}
+
+.newsletter {
+    max-width: 640px;
+    min-height: 313px;
+    border: 2px solid black;
+    margin: auto;
+    margin-top:50px;
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+.newsletter>h3{
+    font-size: 30px;
+    font-family: New York Extra Large;
+    margin-top: 70px;
+    margin-bottom: 20px;
+}
+
+.newsletter>p{
+    font-size: 20px;
+}
+
+.inp{
+    height: 30px;
+    width: 300px;
+    padding: 0px 10px;
+}
+
+.btn {
+    border: none;
+    height: 35px;
+    background: black;
+    font-size: 20px;
+    color: white;
+    padding: 5px 10px 30px 10px;
+    margin-top: 30px;
+}
