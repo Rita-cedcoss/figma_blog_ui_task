@@ -29,8 +29,8 @@ const Footer = () => {
           <p>RSS</p>
         </div>
         <div>
-          <p>© 2012–2020 Nordic Rose Co. </p>
-          <p> All rights reserved.</p>
+          <p>© 2012-2020 Nordic Rose Co. </p>
+          <p>?All rights reserved.</p>
         </div>
       </div>
     </div>
