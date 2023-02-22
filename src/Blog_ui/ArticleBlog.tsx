@@ -57,7 +57,6 @@ const ArticleBlog = () => {
         <p>Image caption centered this way and I’ll make this a bit longer  </p>
         <p>to indicate the amount of line-height.</p>
       </div>
-      {/*  */}
       <div className="articleBlog ">
         <div className="articleBlog__content">
           <p>
@@ -92,12 +91,16 @@ const ArticleBlog = () => {
           </p>
         </div>
         <div className="articleBlog__favicon1">
-          <span className="articleBlog__favicon articleBlog__favicon1--pd">
-            <i className="bi bi-facebook"></i>
-          </span>
-          <span className="articleBlog__favicon articleBlog__favicon1--pd">
-            <i className="bi bi-twitter"></i>
-          </span>
+          <div className="articleBlog__social">
+            <div className="articleBlog__social__fav">
+              <i className="bi bi-facebook"></i>
+              <span>Share on facebook</span>
+            </div>
+            <div className="articleBlog__social__fav articleBlog__social__fav--border">
+              <i className="bi bi-twitter"></i>
+              <span>Share on twiter</span>
+            </div>
+          </div>
           <p className="articleBlog__content__para">
             Tags: product design, culture
           </p>
