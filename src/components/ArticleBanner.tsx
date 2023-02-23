@@ -17,7 +17,7 @@ const ArticleBanner = () => {
           </div>
         </div>
       </section>
-      <img src="image2.png" height="533px" width="1140px" />
+      <img src="image2.png" height="533px" width="100%" />
     </>
   );
 };

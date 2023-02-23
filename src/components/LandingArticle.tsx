@@ -1,6 +1,6 @@
 import React from "react";
 
-const Article = () => {
+const LandingArticle = () => {
   let articleArr = [
     {
       image: "Rectangle 12.png",
@@ -53,7 +53,7 @@ const Article = () => {
   ];
 
   return (
-    <div className="article">
+    <section className="article">
       <h1 style={{ fontSize: "44px" }}> All articles</h1>
       <div className="autofill">
         {articleArr.map((item) => {
@@ -67,8 +67,8 @@ const Article = () => {
           );
         })}
       </div>
-    </div>
+    </section>
   );
 };
 
-export default Article;
+export default LandingArticle;

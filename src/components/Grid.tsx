@@ -1,5 +1,5 @@
 import React from "react";
-const ArticleGrid = () => {
+const Grid = () => {
   let articleArr = [
     {
       image: "Rectangle 12.png",
@@ -56,4 +56,4 @@ const ArticleGrid = () => {
   );
 };
 
-export default ArticleGrid;
+export default Grid;

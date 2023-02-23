@@ -2,7 +2,7 @@ import React from "react";
 
 const ArticleBlog = () => {
   return (
-    <>
+    <section>
       <div className="articleBlog">
         <div className="articleBlog__top">
           <div className="articleBlog__left">
@@ -53,7 +53,7 @@ const ArticleBlog = () => {
       </div>
       {/* banner  */}
       <div className="articleBlog__banner">
-        <img src="Rectangle 16.png" width="854px" />
+        <img src="Rectangle 16.png" width="100%" alt="img" />
         <p>Image caption centered this way and I’ll make this a bit longer  </p>
         <p>to indicate the amount of line-height.</p>
       </div>
@@ -125,7 +125,7 @@ const ArticleBlog = () => {
         <hr></hr>
         <img src="Group 10.png" className="article__eye"></img>
       </div>
-    </>
+    </section>
   );
 };
 

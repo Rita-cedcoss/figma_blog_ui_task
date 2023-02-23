@@ -1,16 +1,17 @@
 import React from "react";
 import ArticleBanner from "./ArticleBanner";
 import ArticleBlog from "./ArticleBlog";
-import ArticleGrid from "./ArticleGrid";
+import Grid from "./Grid";
+import ArticleGrid from "./Grid";
 
-const ArticleDestop = () => {
+const Blog = () => {
   return (
-    <>
+    <section>
       <ArticleBanner />
       <ArticleBlog />
-      <ArticleGrid />
-    </>
+      <Grid />
+    </section>
   );
 };
 
-export default ArticleDestop;
+export default Blog;

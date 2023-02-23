@@ -75,12 +75,11 @@ a {
 }
 
 .autofill {
-    width: 640px;
     margin: auto;
     margin-top: 2%;
     margin-bottom: 5%;
     border-radius: 3px;
-    padding: 30px;
+    padding: 30px 220px !important;
     display: grid;
     gap: 28px;
     grid-template-columns: repeat( auto-fill, minmax(300px, 1fr));
@@ -128,7 +127,6 @@ a {
     padding-top: 130px;
     text-align: center;
     font-size: 16px;
-  
 }
 
 .footer__bottom >p{
@@ -218,8 +216,8 @@ a {
 .articleBlog__social {
     display: flex;
     justify-content: center;
-    width: 600px;
-    margin: auto;
+    max-width: 600px;
+    margin: auto 5px;
     border: 1px solid #edebeb;
 }
 .articleBlog__social__fav {
@@ -247,7 +245,7 @@ a {
 }
 
 .article__grid {
-    width: 854px;
+    max-width: 854px;
     margin: auto;
     text-align: center;
 }
@@ -256,6 +254,7 @@ a {
     margin-top: 4%;
     border-radius: 3px;
     display: grid;
+    padding: 0px 5px;
     gap: 40px;
     grid-template-columns: repeat( auto-fill, minmax(250px, 1fr));
 }
@@ -277,6 +276,7 @@ a {
     margin: auto;
     margin-top:50px;
     margin-bottom: 50px;
+    padding-bottom: 25px;
     text-align: center;
 }
 
@@ -293,7 +293,7 @@ a {
 
 .inp{
     height: 30px;
-    width: 300px;
+    max-width: 300px;
     padding: 0px 10px;
 }
 
@@ -306,3 +306,66 @@ a {
     padding: 5px 10px 30px 10px;
     margin-top: 30px;
 }
+
+/* for responsiveness */
+
+@media screen and (max-width: 900px) {
+    .navbar {
+        display: block;
+    }
+
+    .article__eye {
+        left:350px
+    }
+  }
+  @media screen and (max-width: 700px) {
+    .autofill {
+        padding: 30px 100px !important;
+    }
+
+    .article__eye {
+        left:250px
+    }
+
+    .articleBlog {
+        margin:auto 20px;
+    }
+  }
+  @media screen and (max-width: 450px) {
+    .navbar__left {
+        height: 37.53px;
+        width: 250px;
+    }
+
+    .navbar__right {
+        display: block;
+    }
+
+    .Banner>p {
+        font-size: 20px;
+    }
+
+    .autofill {
+        padding: 30px 20px !important;
+    }
+
+    .article__eye {
+        left:150px
+    }
+
+    .articleBlog {
+        margin:auto 20px;
+    }
+  }
+
+  @media screen and (max-width: 350px) {
+    .autofill {
+        padding: 30px 1px !important;
+    }
+
+    .articleBlog {
+        margin:auto 20px;
+    }
+
+  }
+
